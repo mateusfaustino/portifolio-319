@@ -41,6 +41,7 @@ body {
 .intro-section {
     background-color: #D8F0F1;
     height: 570px;
+    margin-bottom: 128px;
 }
 .intro-section .container {
     padding: 0 18px;
@@ -98,5 +99,57 @@ body {
 }
 
 .work-section{
-    
+    margin-left: 298px;
+    margin-right: 149px;
+}
+
+.work-title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 46px;
+}
+
+.work-item-wrapp{
+    display: flex;
+    flex-direction: column;
+    gap:128px;
+}
+
+.work-item{
+   display: flex;
+   gap:32px;
+}
+
+.work-thumb{
+    background-color: red;
+    width: 429px;
+    height: 250px;
+}
+
+.work-info-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+}
+.work-info{
+    font-family: Epilogue;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 112.238%; /* 22.448px */
+}
+
+.work-action{
+    display: flex;
+    gap: 32px;
+}
+.work-link{
+    color: #000;
+    font-family: Epilogue;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 112.238%; /* 22.448px */
+    text-decoration-line: underline;
 }
